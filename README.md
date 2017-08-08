@@ -1,12 +1,26 @@
 # Android_Draggable
 
+This is an example of how to create a draggable icon (finger-draggable) in Android.
+
+## Commands
+
+There are two important commands in this project:
+1. The *onClick* listener that is triggered when the user types its name and clicks on *Send*.
+2. The *OnTouchListener* that modifies the position of the icon based on the dragging movement of the user.
+
+### onClick 
+
+### OnTouchListener
+
+The code of the *OnTouchListener* is the following
+
 ## IDE
 
 About this project:
 1. This is an Android Studio project, so in order to open it just open it in Android Studio. 
 2. If you use Eclipse for Android development, just create a project in Eclipse and copy the classes in the *src* folder.
 
-## Execution
+## Emulator
 
 Normally in both Android Studio and Eclipse you can create a device emulator with Android, but most of the times is extremelly slow to load. Bluestacks is a better option to perform emulations. In order to enable Bluestacks as an emulator in Android Studio, perform the following:
 1. Close both Bluestacks and Android Studio if open.
@@ -37,3 +51,5 @@ NOTE: For these commands to work, Bluestacks **needs to be open**.
 ![adb](/images/img_bluestacks_03.png?raw=true)
 
 If after trying the steps above Bluestacks still does not show up as a valid emulator, please read [this](http://mattpilz.com/using-bluestacks-fast-easy-android-emulation/) and [this](https://stackoverflow.com/questions/24598577/connect-bluestacks-to-android-studio) sites where they explain some other alternative solutions.
+
+## Execution
