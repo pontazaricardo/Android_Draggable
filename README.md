@@ -16,3 +16,20 @@ Normally in both Android Studio and Eclipse you can create a device emulator wit
 ### How to force Android Studio to use Bluestacks
 
 Sometimes after performing the steps above, Bluestacks still does not appear in the list of emulators. To solve this, do the following:
+1. Close Android Studio.
+2. Open a **cmd** terminal and navigate to the **adb.exe** location. Most of the times is in
+```
+C:\Users\<Local user>\AppData\Local\Android\sdk\platform-tools
+```
+3. Run the following command
+```
+adb connect localhost:5555
+```
+The previous command should return a *daemon started sucessfully* message. In the case you get an error like 
+*Unable to connect to localhost: No connection could be made because the target machine actively refused it*
+just run the following command
+```
+adb connect 127.0.0.1
+```
+
+NOTE: For these commands to work, Bluestacks **needs to be open**.
