@@ -36,4 +36,4 @@ NOTE: For these commands to work, Bluestacks **needs to be open**.
 
 ![adb](/images/img_bluestacks_03.png?raw=true)
 
-If after trying the steps above Bluestacks still does not appear as a valid emulator, please read [this](http://mattpilz.com/using-bluestacks-fast-easy-android-emulation/) and [this](https://stackoverflow.com/questions/24598577/connect-bluestacks-to-android-studio) sites where they explain some other alternative solutions.
+If after trying the steps above Bluestacks still does not show up as a valid emulator, please read [this](http://mattpilz.com/using-bluestacks-fast-easy-android-emulation/) and [this](https://stackoverflow.com/questions/24598577/connect-bluestacks-to-android-studio) sites where they explain some other alternative solutions.
