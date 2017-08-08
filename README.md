@@ -93,3 +93,7 @@ NOTE: For these commands to work, Bluestacks **needs to be open**.
 If after trying the steps above Bluestacks still does not show up as a valid emulator, please read [this](http://mattpilz.com/using-bluestacks-fast-easy-android-emulation/) and [this](https://stackoverflow.com/questions/24598577/connect-bluestacks-to-android-studio) sites where they explain some other alternative solutions.
 
 ## Execution
+
+A run example can be seen below.
+
+![demo](/images/demo.gif?raw=true)
