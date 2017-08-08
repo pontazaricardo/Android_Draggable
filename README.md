@@ -15,10 +15,12 @@ The *onClick* method is implemented as
 ```java
 send = (Button) findViewById(R.id.btnSend);
 send.setOnClickListener(new Button.OnClickListener(){
+
 	@Override
 	public void onClick(View view){
 		sendName();
 	}
+	
 });
 ```
 
@@ -28,19 +30,19 @@ The code of the *OnTouchListener* is the following
 
 ```java
 private OnTouchListener imgListener = new OnTouchListener() {
-	private float x, y; //The x, y position of the image
-	private float mx, my; // The distance from original position to finger dragging
+	private float x, y; //The x, y position of the image.
+	private float mx, my; // The distance from original position to finger dragging.
 
     // For the draggable options, we can use ACTION_DOWN and ACTION_MOVE
 
     @Override
     public boolean onTouch(View v, MotionEvent event) {
 		switch(event.getAction()){
-		case MotionEvent.ACTION_DOWN: //ACTION_DOWN
+		case MotionEvent.ACTION_DOWN: //ACTION_DOWN.
 			x= v.getX()-event.getRawX();
 			y = v.getY()-event.getRawY();
 			break;
-		case MotionEvent.ACTION_MOVE: //ACTION_MOVE
+		case MotionEvent.ACTION_MOVE: //ACTION_MOVE.
 			v.animate().x(event.getRawX()+x).y(event.getRawY()+y).setDuration(0).start();
 			break;
 		}
