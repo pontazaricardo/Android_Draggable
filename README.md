@@ -2,6 +2,8 @@
 
 This is an example of how to create a draggable icon (finger-draggable) in Android.
 
+![demo](/images/demo.gif?raw=true)
+
 ## Commands
 
 There are two important commands in this project:
