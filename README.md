@@ -1,6 +1,6 @@
 # Android_Draggable
 
-This is an example of how to create a draggable icon (finger-draggable) in Android.
+This is an example of how to create a draggable icon (finger-draggable) in Android by using the *onClick* and *OnTouchListener* methods.
 
 ![demo](/images/demo.gif?raw=true)
 
